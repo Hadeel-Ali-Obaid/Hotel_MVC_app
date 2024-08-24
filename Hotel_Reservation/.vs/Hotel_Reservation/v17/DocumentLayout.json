@@ -1,0 +1,548 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\roombookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\roombookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\rooms\\bookroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\rooms\\bookroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\wwwroot\\payment\\css\\pay.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\wwwroot\\payment\\css\\pay.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\loginregister\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\loginregister\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\utilities\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\utilities\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\utilities\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\utilities\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\controllers\\paymentdatumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\controllers\\paymentdatumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\paymentdatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\paymentdatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\controllers\\loginregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\controllers\\loginregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\hotels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\hotels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\wwwroot\\hotel_filter\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\wwwroot\\hotel_filter\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\hotels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\hotels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\hotels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\hotels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\hotels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\hotels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\cities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\cities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|c:\\users\\student\\desktop\\tahaluf\\.net\\first_project_hotel\\hotel_reservation\\hotel_reservation\\views\\loginregister\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03FC7CE4-B699-40F5-849B-EF3F831182EA}|Hotel_Reservation\\Hotel_Reservation.csproj|solutionrelative:hotel_reservation\\views\\loginregister\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Controllers\\CitiesController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T00:26:35.372Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Controllers\\RoomsController.cs",
+              "ViewState": "AQIAAAkBAAAAAAAAAAAAABIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T22:12:47.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRoom.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Rooms\\BookRoom.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Rooms\\BookRoom.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Rooms\\BookRoom.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Rooms\\BookRoom.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T19:30:30.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomBookingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\RoomBookingViewModel.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\RoomBookingViewModel.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\RoomBookingViewModel.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\RoomBookingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T23:51:12.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Utilities\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Utilities\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Utilities\\InvoiceService.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Utilities\\InvoiceService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:34:17.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\Invoice.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\Invoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:37:25.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\LoginRegister\\Login.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\LoginRegister\\Login.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\LoginRegister\\Login.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\LoginRegister\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T15:57:23.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pay.css",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\wwwroot\\Payment\\css\\pay.css",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\wwwroot\\Payment\\css\\pay.css",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\wwwroot\\Payment\\css\\pay.css",
+              "RelativeToolTip": "Hotel_Reservation\\wwwroot\\Payment\\css\\pay.css",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwEkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-24T00:34:06.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentDatumsController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\PaymentDatumsController.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Controllers\\PaymentDatumsController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\PaymentDatumsController.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Controllers\\PaymentDatumsController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T23:05:09.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Utilities\\EmailService.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Utilities\\EmailService.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Utilities\\EmailService.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Utilities\\EmailService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T22:44:54.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\Room.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\Room.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:21:36.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Program.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Program.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Program.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:10:10.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentDatum.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\PaymentDatum.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\PaymentDatum.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\PaymentDatum.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\PaymentDatum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T23:15:49.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\LoginRegisterController.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Controllers\\LoginRegisterController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\LoginRegisterController.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Controllers\\LoginRegisterController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T15:58:14.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Rooms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Rooms\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBEAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:13:53.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Details.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Hotels\\Details.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Details.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Hotels\\Details.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAswDQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T21:26:59.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Hotels\\Index.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Index.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Hotels\\Index.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAswHQAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T23:52:46.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T19:11:42.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\City.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\City.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\City.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:24:57.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Rooms\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Rooms\\Create.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Rooms\\Create.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Rooms\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T22:37:39.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\ModelContext.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\ModelContext.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\ModelContext.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\ModelContext.cs",
+              "ViewState": "AQIAAAACAAAAAAAAAADwvzACAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:17:03.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAjwE4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T23:52:06.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\wwwroot\\Hotel_Filter\\css\\main.css",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\wwwroot\\Hotel_Filter\\css\\main.css",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\wwwroot\\Hotel_Filter\\css\\main.css",
+              "RelativeToolTip": "Hotel_Reservation\\wwwroot\\Hotel_Filter\\css\\main.css",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-20T19:40:36.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Models\\Hotel.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Models\\Hotel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowBUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T21:24:36.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Hotels\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Edit.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Hotels\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T21:26:27.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Hotels\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Delete.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Hotels\\Delete.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T21:27:55.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Hotels\\Create.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Hotels\\Create.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Hotels\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T00:12:57.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Hotel_Reservation\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T20:53:52.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAwE0AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T19:12:07.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\LoginRegister\\Register.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\LoginRegister\\Register.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\LoginRegister\\Register.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\LoginRegister\\Register.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAABBwAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T15:57:25.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Cities\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hotel_Reservation\\Views\\Cities\\Index.cshtml",
+              "ToolTip": "C:\\Users\\STUDENT\\Desktop\\Tahaluf\\.NET\\First_Project_Hotel\\Hotel_Reservation\\Hotel_Reservation\\Views\\Cities\\Index.cshtml",
+              "RelativeToolTip": "Hotel_Reservation\\Views\\Cities\\Index.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAABBwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T00:30:02.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

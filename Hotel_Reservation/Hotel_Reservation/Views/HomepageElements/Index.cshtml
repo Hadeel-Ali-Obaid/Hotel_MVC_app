@@ -1,0 +1,239 @@
+﻿@model IEnumerable<Hotel_Reservation.Models.HomepageElement>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderH1Text)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderIconClass)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderImgPath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderQuoteHeadAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderQuoteHeadEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderQuoteAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HeaderQuoteEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Article1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Article2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Article3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Article4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Article5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Article6)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath6)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath7)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath8)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath9)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImgPath10)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChefName1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChefName2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChefName3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChefName4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialArticle1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialArticle2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialArticle3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialArticle4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialImgPath1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialImgPath2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialImgPath3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TestimonialImgPath4)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderH1Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderIconClass)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderImgPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderQuoteHeadAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderQuoteHeadEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderQuoteAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeaderQuoteEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Article6)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath6)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath7)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath8)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath9)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImgPath10)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChefName1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChefName2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChefName3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChefName4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialArticle1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialArticle2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialArticle3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialArticle4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialImgPath1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialImgPath2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialImgPath3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TestimonialImgPath4)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,199 @@
+﻿@model (Hotel_Reservation.Models.HomepageElement HomepageElement, List<Hotel_Reservation.Models.City> Cities)
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*from template*@
+    <div class="container-xxl py-5 bg-dark hero-header mb-5">
+        <div class="container my-5 py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>@Model.HomepageElement.HeaderQuoteHeadEn</h1>
+                    <p class="text-white animated slideInLeft mb-4 pb-2">@Model.HomepageElement.HeaderQuoteEn</p>
+                    <a class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft" asp-area="" asp-controller="Menus" asp-action="User_Menu">Go to menu</a>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                    <img class="img-fluid" src="@Url.Content(Model.HomepageElement.HeaderImgPath)" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h5>Master Chefs</h5>
+                        <p>@Model.HomepageElement.Article1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                            <h5>Quality Food</h5>
+                            <p>@Model.HomepageElement.Article2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                            <h5>Online Order</h5>
+                            <p>@Model.HomepageElement.Article3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                            <h5>24/7 Service</h5>
+                            <p>@Model.HomepageElement.Article4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="@Url.Content(Model.HomepageElement.ImgPath1)">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="@Url.Content(Model.HomepageElement.ImgPath2)" style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="@Url.Content(Model.HomepageElement.ImgPath3)">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="@Url.Content(Model.HomepageElement.ImgPath4)">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h5 class="section-title ff-secondary text-start text-primary fw-normal">Our mission</h5>
+                    <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Cake Shop</h1>
+                    <p class="mb-4">@Model.HomepageElement.Article5</p>
+                    <p class="mb-4">@Model.HomepageElement.Article6</p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                <div class="ps-4">
+                                    <p class="mb-0">Years of</p>
+                                    <h6 class="text-uppercase mb-0">Experience</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                                <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
+                                <div class="ps-4">
+                                    <p class="mb-0">Popular</p>
+                                    <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @*                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>*@
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Team Start -->
+    <div class="container-xxl pt-5 pb-3">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Cities</h5>
+                <h1 class="mb-5">Cities We Cover</h1>
+            </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                @foreach (var city in Model.Cities)
+                {
+                    <div class="col d-flex">
+                        <div class="card d-flex flex-column">
+                            <img src="@Url.Content("~/NewFolder/" + city.CityImagePath)" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-text">@city.CityName</h3>
+                                <small class="mt-auto">City</small> <!-- Pushes the small text to the bottom -->
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
+                <h1 class="mb-5">Our Clients Say!!!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item bg-transparent border rounded p-4">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>@Model.HomepageElement.TestimonialArticle1</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="@Url.Content(Model.HomepageElement.TestimonialImgPath1)" style="width: 50px; height: 50px;">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Teto</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>@Model.HomepageElement.TestimonialArticle2</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="@Url.Content(Model.HomepageElement.TestimonialImgPath2)" style="width: 50px; height: 50px;">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Kokowawa</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>@Model.HomepageElement.TestimonialArticle3</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="@Url.Content(Model.HomepageElement.TestimonialImgPath3)" style="width: 50px; height: 50px;">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Sharshabeel</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item bg-transparent border rounded p-4">
+                    <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                    <p>@Model.HomepageElement.TestimonialArticle4</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded-circle" src="@Url.Content(Model.HomepageElement.TestimonialImgPath4)" style="width: 50px; height: 50px;">
+                        <div class="ps-3">
+                            <h5 class="mb-1">Za3al</h5>
+                            <small>Profession</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->

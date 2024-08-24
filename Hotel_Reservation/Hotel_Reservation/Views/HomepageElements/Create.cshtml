@@ -1,0 +1,193 @@
+﻿@model Hotel_Reservation.Models.HomepageElement
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>HomepageElement</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HeaderImgPath" class="control-label"></label>
+                <input asp-for="HeaderImgPath" class="form-control" />
+                <span asp-validation-for="HeaderImgPath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HeaderQuoteHeadAr" class="control-label"></label>
+                <input asp-for="HeaderQuoteHeadAr" class="form-control" />
+                <span asp-validation-for="HeaderQuoteHeadAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HeaderQuoteHeadEn" class="control-label"></label>
+                <input asp-for="HeaderQuoteHeadEn" class="form-control" />
+                <span asp-validation-for="HeaderQuoteHeadEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HeaderQuoteAr" class="control-label"></label>
+                <input asp-for="HeaderQuoteAr" class="form-control" />
+                <span asp-validation-for="HeaderQuoteAr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HeaderQuoteEn" class="control-label"></label>
+                <input asp-for="HeaderQuoteEn" class="form-control" />
+                <span asp-validation-for="HeaderQuoteEn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Article1" class="control-label"></label>
+                <input asp-for="Article1" class="form-control" />
+                <span asp-validation-for="Article1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Article2" class="control-label"></label>
+                <input asp-for="Article2" class="form-control" />
+                <span asp-validation-for="Article2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Article3" class="control-label"></label>
+                <input asp-for="Article3" class="form-control" />
+                <span asp-validation-for="Article3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Article4" class="control-label"></label>
+                <input asp-for="Article4" class="form-control" />
+                <span asp-validation-for="Article4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Article5" class="control-label"></label>
+                <input asp-for="Article5" class="form-control" />
+                <span asp-validation-for="Article5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Article6" class="control-label"></label>
+                <input asp-for="Article6" class="form-control" />
+                <span asp-validation-for="Article6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath1" class="control-label"></label>
+                <input asp-for="ImgPath1" class="form-control" />
+                <span asp-validation-for="ImgPath1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath2" class="control-label"></label>
+                <input asp-for="ImgPath2" class="form-control" />
+                <span asp-validation-for="ImgPath2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath3" class="control-label"></label>
+                <input asp-for="ImgPath3" class="form-control" />
+                <span asp-validation-for="ImgPath3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath4" class="control-label"></label>
+                <input asp-for="ImgPath4" class="form-control" />
+                <span asp-validation-for="ImgPath4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath5" class="control-label"></label>
+                <input asp-for="ImgPath5" class="form-control" />
+                <span asp-validation-for="ImgPath5" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath6" class="control-label"></label>
+                <input asp-for="ImgPath6" class="form-control" />
+                <span asp-validation-for="ImgPath6" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath7" class="control-label"></label>
+                <input asp-for="ImgPath7" class="form-control" />
+                <span asp-validation-for="ImgPath7" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath8" class="control-label"></label>
+                <input asp-for="ImgPath8" class="form-control" />
+                <span asp-validation-for="ImgPath8" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath9" class="control-label"></label>
+                <input asp-for="ImgPath9" class="form-control" />
+                <span asp-validation-for="ImgPath9" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImgPath10" class="control-label"></label>
+                <input asp-for="ImgPath10" class="form-control" />
+                <span asp-validation-for="ImgPath10" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChefName1" class="control-label"></label>
+                <input asp-for="ChefName1" class="form-control" />
+                <span asp-validation-for="ChefName1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChefName2" class="control-label"></label>
+                <input asp-for="ChefName2" class="form-control" />
+                <span asp-validation-for="ChefName2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChefName3" class="control-label"></label>
+                <input asp-for="ChefName3" class="form-control" />
+                <span asp-validation-for="ChefName3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChefName4" class="control-label"></label>
+                <input asp-for="ChefName4" class="form-control" />
+                <span asp-validation-for="ChefName4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialArticle1" class="control-label"></label>
+                <input asp-for="TestimonialArticle1" class="form-control" />
+                <span asp-validation-for="TestimonialArticle1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialArticle2" class="control-label"></label>
+                <input asp-for="TestimonialArticle2" class="form-control" />
+                <span asp-validation-for="TestimonialArticle2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialArticle3" class="control-label"></label>
+                <input asp-for="TestimonialArticle3" class="form-control" />
+                <span asp-validation-for="TestimonialArticle3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialArticle4" class="control-label"></label>
+                <input asp-for="TestimonialArticle4" class="form-control" />
+                <span asp-validation-for="TestimonialArticle4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialImgPath1" class="control-label"></label>
+                <input asp-for="TestimonialImgPath1" class="form-control" />
+                <span asp-validation-for="TestimonialImgPath1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialImgPath2" class="control-label"></label>
+                <input asp-for="TestimonialImgPath2" class="form-control" />
+                <span asp-validation-for="TestimonialImgPath2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialImgPath3" class="control-label"></label>
+                <input asp-for="TestimonialImgPath3" class="form-control" />
+                <span asp-validation-for="TestimonialImgPath3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TestimonialImgPath4" class="control-label"></label>
+                <input asp-for="TestimonialImgPath4" class="form-control" />
+                <span asp-validation-for="TestimonialImgPath4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

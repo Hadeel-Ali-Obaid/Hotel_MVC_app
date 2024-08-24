@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hotel_Reservation
+build_property.RootNamespace = Hotel_Reservation
+build_property.ProjectDir = C:\Users\STUDENT\Desktop\Tahaluf\.NET\First_Project_Hotel\Hotel_Reservation\Hotel_Reservation\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\STUDENT\Desktop\Tahaluf\.NET\First_Project_Hotel\Hotel_Reservation\Hotel_Reservation
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Cities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Cities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Cities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Cities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Cities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/HomepageElements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VFbGVtZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/HomepageElements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VFbGVtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/HomepageElements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VFbGVtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/HomepageElements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VFbGVtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/HomepageElements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXBhZ2VFbGVtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Hotels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Hotels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Hotels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Hotels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Hotels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/LoginRegister/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3RlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/LoginRegister/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5SZWdpc3RlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/STUDENT/Desktop/Tahaluf/.NET/First_Project_Hotel/Hotel_Reservation/Hotel_Reservation/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-puvocz12we

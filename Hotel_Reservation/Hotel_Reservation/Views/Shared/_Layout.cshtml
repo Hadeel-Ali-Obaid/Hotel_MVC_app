@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - hi</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicon -->
+    <link href="~/template_assets/img/baklava_1.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/template_assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/template_assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/template_assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/template_assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/template_assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+        <header>
+            @*        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">cake_shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+            <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            </nav>*@
+            <!-- Navbar & Hero Start -->
+            <div class="container-xxl position-relative p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                    <a class="navbar-brand p-0" asp-area="" asp-controller="Home" asp-action="Index">
+                        <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>@ViewBag.HeaderH1Text</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0 pe-4">
+                            <a class="nav-item nav-link" id="home" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-item nav-link" id="dashboard" asp-area="" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
+                            <a class="nav-item nav-link" id="hotel" asp-area="" asp-controller="Hotels" asp-action="Index">Hotels</a>
+                            <a class="nav-item nav-link" id="cart" asp-area="" asp-controller="Carts" asp-action="Index">Cart</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="interact" data-bs-toggle="dropdown">Interact</a>
+                                <div class="dropdown-menu m-0">
+                                    @*                                    <a href="booking.html" class="dropdown-item">About us</a>*@
+                                    <a class="dropdown-item" id="contact_us_nav" asp-area="" asp-controller="ContactUs" asp-action="Create">Contact us</a>
+                                    @*                                    <a class="dropdown-item" asp-area="" asp-controller="Testimonials" asp-action="Index">Testimonial</a>*@
+                                </div>
+                            </div>
+                            <a class="nav-item nav-link" asp-area="" asp-controller="LoginRegister" id="signUp" asp-action="Register">SignUp</a>
+                            <a class="nav-item nav-link" asp-area="" asp-controller="LoginRegister" id="logIn" asp-action="Login">LogIn</a>
+                        </div>
+                        <a class="btn btn-primary py-2 px-4" asp-area="" asp-controller="LoginRegister" id="signOut" asp-action="SignOut">Sign Out <img src="@Url.Content("~/image/")" id="user_img" alt="Image...." width="30" height="30" style="border-radius: 50%; margin-left:4px;" /></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div @*class="container"*@>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer @*class="border-top footer text-muted"*@>
+
+            @*            <div class="container">
+            &copy; 2022 - cake_shop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>*@
+
+            <!-- Footer Start -->
+            <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" style="bottom: 0px !important; position:relative;" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                            <a class="btn btn-link" href="">About Us</a>
+                            <a class="btn btn-link" asp-area="" asp-controller="ContactUs" asp-action="Create">Contact Us</a>
+                            <a class="btn btn-link" href="">Reservation</a>
+                            <a class="btn btn-link" href="">Privacy Policy</a>
+                            <a class="btn btn-link" href="">Terms & Condition</a>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Karamah .st, Amman, Jordan</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@cake_shop.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                            <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                            <p>09AM - 09PM</p>
+                            <h5 class="text-light fw-normal">Sunday</h5>
+                            <p>10AM - 08PM</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                                <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" asp-area="" asp-controller="Home" asp-action="Privacy">2022 - cake_shop -</a>, All Right Reserved.
+
+                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                                @*                                Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                                Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>*@
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="">Home</a>
+                                    <a href="">Cookies</a>
+                                    <a href="">Help</a>
+                                    <a href="">FQAs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </footer>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/template_assets/lib/wow/wow.min.js"></script>
+    <script src="~/template_assets/lib/easing/easing.min.js"></script>
+    <script src="~/template_assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/template_assets/lib/counterup/counterup.min.js"></script>
+    <script src="~/template_assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/template_assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/template_assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/template_assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/template_assets/js/main.js"></script>
+    <script>
+        // Cookies checker:
+
+        // Cookies checker:
+        (function ($) {
+            let cookies = (document.cookie).split(';');
+            var cookiesObj = {};
+            if (cookies[0].split('=')[0]) {
+                cookies.forEach(ele => {
+                    cookiesObj[ele.split('=')[0].trim()] = ele.split('=')[1].trim();
+                })
+            }
+            console.log("cookies: ", cookies);
+            console.log("cookiesObj: ", cookiesObj)
+            switch (Number(cookiesObj.role_id)) {
+                case 1: {
+                    console.log("cookiesObj: 1");
+                    $('#signUp').hide();
+                    $('#logIn').hide();
+                    $('#signOut').show();
+                    $("#cart").show();
+                    $("#dashboard").show();
+                    $("#dashboard_dash").show();
+                    $("#pages_elements_dash").show();
+                    $("#products_settings_dash").show();
+                    $("#users_dash").show();
+                    $("#employees_dash").show();
+                    $("#orders_dash").show();
+                    $("#user_experience_dash").show();
+                    $("#add_user_dash").show();
+                    $("#contact_us_nav").show();
+                    break;
+                }
+                case 2: {
+                    console.log("cookiesObj: 2");
+                    $('#signUp').hide();
+                    $('#logIn').hide();
+                    $('#signOut').show();
+                    $("#cart").show();
+                    $("#dashboard").show();
+                    $("#dashboard_dash").hide();
+                    $("#pages_elements_dash").hide();
+                    $("#products_settings_dash").hide();
+                    $("#users_dash").hide();
+                    $("#employees_dash").hide();
+                    $("#orders_dash").hide();
+                    $("#user_experience_dash").hide();
+                    $("#add_user_dash").hide();
+                    $("#contact_us_nav").show();
+                    break;
+                }
+                case 3: {
+                    console.log("cookiesObj: 3");
+                    $('#signUp').hide();
+                    $('#logIn').hide();
+                    $('#signOut').show();
+                    $("#cart").show();
+                    $("#dashboard").show();
+                    $("#dashboard_dash").show();
+                    $("#pages_elements_dash").hide();
+                    $("#products_settings_dash").hide();
+                    $("#users_dash").show();
+                    $("#employees_dash").hide();
+                    $("#orders_dash").show();
+                    $("#user_experience_dash").hide();
+                    $("#add_user_dash").hide();
+                    $("#contact_us_nav").show();
+                    break;
+                }
+                default:
+                    {
+                        console.log("cookiesObj: 4");
+                        $('#signUp').show();
+                        $('#logIn').show();
+                        $("#signOut").hide();
+                        $("#cart").hide();
+                        $("#dashboard").hide();
+                        $("#contact_us_nav").hide();
+                        break;
+                    }
+            }
+            var oldSrc = $('#user_img').attr('src');
+            $("#user_img").attr("src", `${oldSrc + cookiesObj.user_img}`);
+
+            var currentURL = $(location).attr('href');
+            var page = currentURL.split('/').slice(-1)[0];
+            switch (page) {
+                case "Dashboard": {
+                    $('#dashboard').addClass('active');
+                    break;
+                }
+                case "User_Menu": {
+                    $('#menu').addClass('active');
+                    break;
+                }
+                case "Carts": {
+                    $('#cart').addClass('active');
+                    break;
+                }
+                case "Login": {
+                    $('#logIn').addClass('active');
+                    break;
+                }
+                case "Register": {
+                    $('#signUp').addClass('active');
+                    break;
+                }
+                case "": {
+                    $('#home').addClass('active');
+                    break;
+                }
+
+            }
+        })(jQuery);
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
